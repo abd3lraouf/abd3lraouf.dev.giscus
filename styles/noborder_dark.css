@@ -1,6 +1,6 @@
 main {
-  --primary-default: 253, 200, 0;
-  --bg-default: 22, 22, 24;
+  --primary-default: rgb(253, 200, 0);
+  --bg-default: rgb(24, 24, 27);
   --color-prettylights-syntax-comment: #8b949e;
   --color-prettylights-syntax-constant: #79c0ff;
   --color-prettylights-syntax-entity: #d2a8ff;
@@ -42,13 +42,13 @@ main {
   --color-btn-active-border: rgba(var(--primary-default), 1);
   --color-btn-selected-bg: rgba(var(--primary-default), 0.15);
   --color-btn-primary-text: rgb(0 0 0 / 100%);
-  --color-btn-primary-bg: rgba(var(--primary-default), 0.45);
+  --color-btn-primary-bg: rgba(var(--primary-default), 1);
   --color-btn-primary-border: rgba(var(--primary-default), 0.5);
   --color-btn-primary-shadow: 0 1px 0 rgb(27 31 36 / 10%);
   --color-btn-primary-inset-shadow: inset 0 1px 0 hsl(0deg 0% 100% / 3%);
   --color-btn-primary-hover-bg: rgba(var(--primary-default), 0.53);
   --color-btn-primary-hover-border: rgba(var(--primary-default), 0.75);
-  --color-btn-primary-selected-bg: rgba(var(--primary-default), 0.45);
+  --color-btn-primary-selected-bg: rgba(var(--primary-default), 1);
   --color-btn-primary-selected-shadow: inset 0 1px 0 rgb(0 45 17 / 20%);
   --color-btn-primary-disabled-text: rgb(0 0 0 / 80%);
   --color-btn-primary-disabled-bg: rgba(var(--primary-default), 0.5);
